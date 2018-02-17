@@ -7,7 +7,7 @@
 
         <a class="uk-position-cover" @click.prevent="config"></a>
 
-        <div class="uk-panel-badge pk-panel-badge uk-hidden">
+        <div class="uk-panel-badge pk-panel-badge">
             <ul class="uk-subnav pk-subnav-icon">
                 <li><a class="pk-icon-delete pk-icon-hover" :title="'Delete' | trans" data-uk-tooltip="{delay: 500}" @click.prevent="remove"></a></li>
             </ul>
@@ -23,7 +23,7 @@
 
         <a class="uk-position-cover" @click.prevent="config"></a>
 
-        <div class="uk-panel-badge pk-panel-badge uk-hidden">
+        <div class="uk-panel-badge pk-panel-badge">
             <ul class="uk-subnav pk-subnav-icon">
                 <li><a class="pk-icon-delete pk-icon-hover" :title="'Delete' | trans" data-uk-tooltip="{delay: 500}" @click.prevent="remove"></a></li>
             </ul>
