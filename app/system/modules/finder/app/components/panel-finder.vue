@@ -9,7 +9,7 @@
 
                 <h2 class="uk-margin-remove" v-else>{{ '{1} %count% File selected|]1,Inf[ %count% Files selected' | transChoice selected.length {count:selected.length} }}</h2>
 
-                <div class="uk-margin-left" v-if="isWritable" v-show="selected.length">
+                <!-- <div class="uk-margin-left" v-if="isWritable" v-show="selected.length">
                     <ul class="uk-subnav pk-subnav-icon">
                         <li v-show="selected.length === 1"><a class="pk-icon-edit pk-icon-hover" :title="'Rename' | trans" data-uk-tooltip="{delay: 500}" @click.prevent="rename"></a></li>
                         <li><a class="pk-icon-delete pk-icon-hover" :title="'Delete' | trans" data-uk-tooltip="{delay: 500}" @click.prevent="remove" v-confirm="'Delete files?'"></a></li>
@@ -20,12 +20,12 @@
                     <div class="uk-search">
                         <input class="uk-search-field" type="text" v-model="search">
                     </div>
-                </div>
+                </div> -->
 
             </div>
             <div class="uk-flex uk-flex-middle uk-flex-wrap" data-uk-margin>
 
-                <div class="uk-margin-right">
+                <!-- <div class="uk-margin-right">
                     <ul class="uk-subnav pk-subnav-icon">
                         <li :class="{'uk-active': view == 'table'}">
                             <a class="pk-icon-table pk-icon-hover" :title="'Table View' | trans" data-uk-tooltip="{delay: 500}" @click.prevent="view = 'table'"></a>
@@ -34,15 +34,15 @@
                             <a class="pk-icon-thumbnails pk-icon-hover" :title="'Thumbnails View' | trans" data-uk-tooltip="{delay: 500}" @click.prevent="view = 'thumbnail'"></a>
                         </li>
                     </ul>
-                </div>
+                </div> -->
 
-                <div>
+                <!-- <div>
                     <button class="uk-button uk-margin-small-right" @click.prevent="createFolder()">{{ 'Add Folder' | trans }}</button>
                     <div class="uk-form-file">
                         <button class="uk-button" :class="{'uk-button-primary': !modal}">{{ 'Upload' | trans }}</button>
                         <input type="file" name="files[]" multiple="multiple">
                     </div>
-                </div>
+                </div> -->
 
             </div>
         </div>

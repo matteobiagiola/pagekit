@@ -91,13 +91,13 @@ return [
             'access' => 'site: manage site',
             'active' => '@site/page(/edit)?'
         ],
-        'site: settings' => [
+        /*'site: settings' => [
             'label' => 'Settings',
             'parent' => 'site',
             'url' => '@site/settings',
             'access' => 'system: access settings',
             'priority' => 30
-        ]
+        ]*/
 
     ],
 

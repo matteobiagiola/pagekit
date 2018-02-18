@@ -75,7 +75,7 @@ return [
 
     ],
 
-    'menu' => [
+    /*'menu' => [
 
         'system: storage' => [
             'label' => 'Storage',
@@ -85,7 +85,7 @@ return [
             'priority' => 20
         ]
 
-    ],
+    ],*/
 
     'config' => [
 

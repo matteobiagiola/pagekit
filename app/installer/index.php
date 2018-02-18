@@ -95,7 +95,7 @@ return [
 
     ],
 
-    'menu' => [
+    /*'menu' => [
 
         'system: marketplace' => [
             'label' => 'Marketplace',
@@ -140,7 +140,7 @@ return [
             'priority' => 25
         ]
 
-    ],
+    ],*/
 
     'config' => [
 

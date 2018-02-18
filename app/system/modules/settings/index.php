@@ -34,7 +34,7 @@ return [
 
     ],
 
-    'menu' => [
+    /*'menu' => [
 
         'system: system' => [
             'label' => 'System',
@@ -50,7 +50,7 @@ return [
             'url' => '@system/settings',
         ]
 
-    ],
+    ],*/
 
     'events' => [
 

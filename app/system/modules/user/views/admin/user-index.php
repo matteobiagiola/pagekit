@@ -21,11 +21,11 @@
 
             </template>
 
-            <div class="pk-search">
+            <!-- <div class="pk-search">
                 <div class="uk-search">
                     <input class="uk-search-field" type="text" v-model="config.filter.search" debounce="300">
                 </div>
-            </div>
+            </div> -->
 
         </div>
         <div data-uk-margin>
