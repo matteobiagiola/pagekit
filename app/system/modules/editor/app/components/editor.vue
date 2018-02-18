@@ -1,7 +1,8 @@
 <template>
 
     <div>
-        <textarea autocomplete="off" :style="{height: height + 'px'}" :class="{'uk-invisible': !show}" v-el:editor v-model="value"></textarea>
+        <!-- <textarea autocomplete="off" :style="{height: height + 'px'}" :class="{'uk-invisible': !show}" v-el:editor v-model="value"></textarea> -->
+	<textarea id="textareahtml" autocomplete="off" style="height: 547px; width: 891px" v-model="value"></textarea>
     </div>
 
 </template>
