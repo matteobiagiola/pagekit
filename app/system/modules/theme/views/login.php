@@ -40,10 +40,10 @@
 
                     </div>
 
-                    <ul class="uk-list uk-contrast">
+                    <!-- <ul class="uk-list uk-contrast">
                         <li><label class="uk-form"><input type="checkbox" name="remember_me"> <?= __('Remember Me') ?></label></li>
                         <li class="uk-margin-small-top"> <?= __('Forgot Password?') ?> <a class="uk-link" data-uk-toggle="{ target: '.js-toggle' }"><?= __('Request Password') ?></a></li>
-                    </ul>
+                    </ul> -->
 
                 </form>
 
