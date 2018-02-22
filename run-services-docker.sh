@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Stop apache2 if running
+service apache2 stop
+
 # Start apache2
 service apache2 start
 
